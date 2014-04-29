@@ -19,7 +19,7 @@ public class SnakeCamelUtil {
 			if (Character.isUpperCase(c)) {
 				sb.append(camelcase.substring(j, i));
 				if (sb.length() > 0) {
-					sb.append("_");//ŠÔ‚É_‚ğ‹²‚Ş
+					sb.append("_");
 				}
 				sb.append(Character.toLowerCase(c));//æ“ª‚ğ¬•¶š‚É
 				j = i+1;
